@@ -1,0 +1,43 @@
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+    width: 320px;
+    height: 320px;
+    margin: 0 auto;
+    background-color: #2a2928;
+    border: 5px solid #555;
+    border-radius: 10px;
+    padding: 5px;
+}
+body{
+    background-color: color-mix(in srgb, blue 20%, red 20%)    ;
+}
+h1{
+    text-align: center;
+    background-color: color-mix(in srgb, rgb(150, 25, 204) 40%, rgb(255, 196, 0) 20%);
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #513a51;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: #c416c4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    color: #2f2f2f;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.square:hover {
+    background-color: #0fbadc;
+}
